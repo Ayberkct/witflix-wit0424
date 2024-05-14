@@ -13,7 +13,7 @@ h1 {
 header {
     display: flex;
     align-items: center;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 2rem;
     gap: 1rem;
     justify-content: space-between;
 }
@@ -25,6 +25,7 @@ header h1 {
 header nav a {
     text-decoration: none;
     color: black;
+    margin-left: 2rem;
 }
 
 header nav a:hover {
@@ -40,7 +41,7 @@ header nav a:hover {
 
 input[name="search"] {
     width: 20vw;
-    max-width: 6rem;
+    max-width: 10rem;
     padding: 0.3rem 30px 0.3rem 0;
 }
 
@@ -64,14 +65,14 @@ main,section {
 }
 
 .hero-video {
-    background: gray;
-    /* background: url("https://picsum.photos/500");
-    background-size: cover; */
+    
+    background: url("https://picsum.photos/500?1");
+    background-size: cover; 
     color: white;
     padding: 2rem;
-    aspect-ratio: 7/5;
+    aspect-ratio: 6/2;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .rating-section i {
@@ -170,4 +171,55 @@ main,section {
 
 .suggestion-card:nth-child(3) {
     background: green;;
+}
+
+/*footer*/
+.footer-section{
+    display: flex;
+    background: red;
+    justify-content: space-between;
+    padding: 0.5rem 1rem 0 1rem;
+}
+.footer-nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+    padding: 0 2% 0 0;
+}
+.footer-nav p{
+    width: 50vw;
+}
+.footer-followUs{
+    display: inline;
+    
+}
+.footer-followUs h5{
+    margin-top: 0;
+    font-weight: 300;
+}
+.footer-followUs i{
+    font-size: 2rem;
+}
+.footer-app{
+    display: inline-block;
+    width: 30%;
+    margin-right: -5%;
+}
+.footer-app div{
+    margin-top: -8%;
+    width: 20vw;
+}
+.footer-app h5{
+    display: block;
+    margin-top:0;
+    font-weight: 300;
+}
+.footer-app img{
+    
+    width: 10rem;
+    margin-top: -5%;
+    
+}
+.footer-app img:first-child{
+    margin-right: 1rem;
 }

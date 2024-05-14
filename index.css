@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Helvetica, sans-serif;
+    background: url(https://assets.nflxext.com/ffe/siteui/vlv3/ff5587c5-1052-47cf-974b-a97e3b4f0656/38151488-b3ad-4336-b528-063676131f98/TR-tr-20240506-popsignuptwoweeks-perspective_alpha_website_small.jpg);
 }
 
 h1 {
@@ -24,7 +25,7 @@ header h1 {
 
 header nav a {
     text-decoration: none;
-    color: black;
+    color: white;
     margin-left: 2rem;
 }
 
@@ -43,20 +44,23 @@ input[name="search"] {
     width: 20vw;
     max-width: 10rem;
     padding: 0.3rem 30px 0.3rem 0;
+    border: 2px solid white;
 }
 
 .search-icon {
     margin-left: -40px;
+    color: white;
 }
 .notification-icon {
     font-size: 1.4rem;
     border-radius: 100%;
+    color: white;
 }
 
 .user-image {
     width: 2.5rem;
     border-radius: 100%;
-    border: 2px solid black;
+    border: 2px solid white;
 }
 
 /* main section */
@@ -152,7 +156,7 @@ main,section {
     display: inline-block;
     border: 1px solid black;
     padding: 0.5rem;
-    background: gray;
+    background: url("https://picsum.photos/500?2");
     color: white;
     width: 30%;
 }
@@ -166,23 +170,23 @@ main,section {
 }
 
 .suggestion-card:nth-child(2) {
-    background: blue;;
+    background: url("https://picsum.photos/500?3");
 }
 
 .suggestion-card:nth-child(3) {
-    background: green;;
+    background: url("https://picsum.photos/500?4");
 }
 
 /*footer*/
 .footer-section{
     display: flex;
-    background: red;
+    color: white;
     justify-content: space-between;
     padding: 0.5rem 1rem 0 1rem;
 }
 .footer-nav a{
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: 300;
     padding: 0 2% 0 0;
 }
